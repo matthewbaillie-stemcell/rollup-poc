@@ -1,6 +1,6 @@
 {
   "name": "@matthewbaillie-stemcell/rollup-poc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "POC UI library with Rollup and Storybook",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
