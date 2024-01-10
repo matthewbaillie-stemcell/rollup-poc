@@ -4163,16 +4163,16 @@ const Button = ({ variant, ...props }) => {
             return propStyle;
         if (variant === "primary")
             return {
-                borderColor: "#6366F1",
-                backgroundColor: "#6366F1",
+                borderColor: "#ef8200",
+                backgroundColor: "#ef8200",
                 color: "#FAFAFA",
                 ...propStyle,
             };
         if (variant === "secondary")
             return {
-                borderColor: "#6366F1",
+                borderColor: "#ef8200",
                 backgroundColor: "#FAFAFA",
-                color: "#6366F1",
+                color: "#ef8200",
                 ...propStyle,
             };
         return propStyle;
