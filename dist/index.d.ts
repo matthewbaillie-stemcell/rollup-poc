@@ -1,4 +1,4 @@
-/// <reference types="react" />
+import React from 'react';
 import * as react_jsx_runtime from 'react/jsx-runtime';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {

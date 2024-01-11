@@ -1,5 +1,5 @@
-/// <reference types="react" />
-import "./Button.css";
+import "./button.css";
+import React from "react";
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     variant?: "primary" | "secondary";
 }

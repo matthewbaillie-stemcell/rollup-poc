@@ -4207,7 +4207,7 @@ const Button = ({ variant, ...props }) => {
             };
         return propStyle;
     };
-    return (jsxRuntimeExports.jsx("button", { ...props, style: styles(), children: props.children }));
+    return (jsxRuntimeExports.jsx("button", { className: "matt-button", ...props, style: styles(), children: props.children }));
 };
 
 const Input = () => {
