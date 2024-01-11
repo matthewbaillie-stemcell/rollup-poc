@@ -3,3 +3,5 @@ rollup.config.js
 src/
 tsconfig.json
 package-lock.json
+.npmrc
+rollup.config.mjs
