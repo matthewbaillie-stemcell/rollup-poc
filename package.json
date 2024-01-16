@@ -96,6 +96,7 @@
     "@mui/icons-material": "^5.15.4",
     "@mui/material": "^5.15.4",
     "@types/jest": "^29.5.11",
-    "postcss-import": "^16.0.0"
+    "postcss-import": "^16.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
   }
 }
