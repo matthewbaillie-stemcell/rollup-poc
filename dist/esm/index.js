@@ -4173,36 +4173,6 @@ if (process.env.NODE_ENV === 'production') {
 
 var jsxRuntimeExports = jsxRuntime.exports;
 
-function styleInject(css, ref) {
-  if ( ref === void 0 ) ref = {};
-  var insertAt = ref.insertAt;
-
-  if (!css || typeof document === 'undefined') { return; }
-
-  var head = document.head || document.getElementsByTagName('head')[0];
-  var style = document.createElement('style');
-  style.type = 'text/css';
-
-  if (insertAt === 'top') {
-    if (head.firstChild) {
-      head.insertBefore(style, head.firstChild);
-    } else {
-      head.appendChild(style);
-    }
-  } else {
-    head.appendChild(style);
-  }
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = css;
-  } else {
-    style.appendChild(document.createTextNode(css));
-  }
-}
-
-var css_248z = "button{border-radius:.75rem;border-width:1px;padding:.25rem 1rem;text-align:center;transition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}button:hover{box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);filter:brightness(1.25)}button:disabled{background-color:#737373;border-color:#737373;color:#e5e5e5;cursor:not-allowed}";
-styleInject(css_248z);
-
 const Button$2 = ({ variant, ...props }) => {
     const styles = () => {
         const propStyle = props.style ?? {};
@@ -13174,6 +13144,7 @@ process.env.NODE_ENV !== "production" ? Button.propTypes /* remove-proptypes */ 
 } : void 0;
 var Button$1 = Button;
 
+// import React from "react";
 function MUIButton() {
     return jsxRuntimeExports.jsx(Button$1, { variant: "contained", children: "Hello world" });
 }
