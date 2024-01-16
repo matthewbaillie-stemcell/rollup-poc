@@ -1,1 +1,1 @@
-export default function ButtonUsage(): import("react/jsx-runtime").JSX.Element;
+export default function MUIButton(): import("react/jsx-runtime").JSX.Element;

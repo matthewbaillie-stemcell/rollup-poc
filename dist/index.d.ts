@@ -9,6 +9,6 @@ declare const Button: React.FC<ButtonProps>;
 
 declare const Input: () => react_jsx_runtime.JSX.Element;
 
-declare function ButtonUsage(): react_jsx_runtime.JSX.Element;
+declare function MUIButton(): react_jsx_runtime.JSX.Element;
 
-export { Button, Input, ButtonUsage as MUIButton };
+export { Button, Input, MUIButton };

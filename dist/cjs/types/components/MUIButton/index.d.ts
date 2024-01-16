@@ -1,2 +1,2 @@
-import MuiButton from "./MuiButton";
-export default MuiButton;
+import MUIButton from "./MuiButton";
+export default MUIButton;

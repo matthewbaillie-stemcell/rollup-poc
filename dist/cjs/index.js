@@ -13176,11 +13176,11 @@ process.env.NODE_ENV !== "production" ? Button.propTypes /* remove-proptypes */ 
 } : void 0;
 var Button$1 = Button;
 
-function ButtonUsage() {
+function MUIButton() {
     return jsxRuntimeExports.jsx(Button$1, { variant: "contained", children: "Hello world" });
 }
 
 exports.Button = Button$2;
 exports.Input = Input;
-exports.MUIButton = ButtonUsage;
+exports.MUIButton = MUIButton;
 //# sourceMappingURL=index.js.map
