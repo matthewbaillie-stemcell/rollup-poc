@@ -1,6 +1,7 @@
 'use strict';
 
 var jsxRuntime = require('react/jsx-runtime');
+require('./components/Button/button.css');
 require('./components/stories/button.css');
 require('./components/Header/header.css');
 require('./components/Footer/footer.css');

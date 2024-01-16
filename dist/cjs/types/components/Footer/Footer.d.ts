@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import "../stories/Button";
 import "./footer.css";
 /**
  * Primary UI component for user interaction
