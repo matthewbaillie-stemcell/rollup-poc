@@ -1,6 +1,6 @@
 {
   "name": "@matthewbaillie-stemcell/rollup-poc",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "POC UI library with Rollup and Storybook",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -93,6 +93,7 @@
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "postcss-import": "^16.0.0"
+    "postcss-import": "^16.0.0",
+    "rollup-plugin-polyfill-node": "^0.13.0"
   }
 }
